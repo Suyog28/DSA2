@@ -1,7 +1,7 @@
 //1.Pallimdrome Number 
 
-function isPalindrome(num) {
-    return num === +num.toString().split("").reverse().join("");
+function isPalindrome(x) {
+    return x<0 ? false : x === +x.toString().split("").reverse().join("");
 }
 
 console.log(isPalindrome(12)); 
